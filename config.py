@@ -5,7 +5,7 @@ import os
 class Config:
     API_ID = int(os.environ.get("API_ID", "14631157"))
     API_HASH = os.environ.get("API_HASH", "aa7c2b3be68a7488abdb9de6ce78d311")
-    BOT_TOKEN = os.environ.get("6898599695:AAE-rukB-OoPJgxOOOcKKuK_8gv55HiC4ww")
+    BOT_TOKEN = os.environ.get("6880188560:AAHpk9t0uWT1CURv7NqJIJCZ3XsPyywGc8E")
     LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1002106332206")
     MONGODB_URL = os.environ.get("mongodb+srv://dilfilter123:dilfilter123@cluster0.tq9uv2k.mongodb.net/?retryWrites=true&w=majority")
     BOT_OWNER = int(os.environ.get("BOT_OWNER", "5380833276"))
